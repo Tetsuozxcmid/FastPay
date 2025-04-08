@@ -1,5 +1,6 @@
 # FastPay
-
+## About
+    FastPay is a subscription payment system built using FastAPI  and integrated with the Stripe API. 
 ## Installation
 
 Follow these steps to set up the project:
