@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+{% extends 'base.html' %} {% block content %}
+
+<head>
+    <script src="https://js.stripe.com/v3/"></script>
+    <script src="{{ url_for('static', path='payment.js') }}"></script>
+
+</head>
+
+<body>
+
+    <div class="d-flex flex-column align-items-center gap-3 mt-5">
+        <h1>Hello,</h1>
+        <h1 class="hey"> Subscribe</h1>
+        <button id="checkout-basic" class="btn btn-secondary btn-lg">Subscribe Basic</button>
+        <button id="checkout-premium" class="btn btn-secondary btn-lg">Subscribe Premium</button>
+    </div>
+
+
+    <footer class="text-center py-3 bg-dark text-light">
+        <p class="mb-0">&copy; 2025 FastPay</p>
+    </footer>
+
+</body>
+
+</html>
+
+{% endblock %}

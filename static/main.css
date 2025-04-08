@@ -1,0 +1,48 @@
+.hey {
+    opacity: 0;
+    animation: fadeIn 3.5s ease-in-out forwards;
+}
+
+@keyframes hey {
+    to {
+        opacity: 1;
+    }
+}
+
+.fade-in {
+    opacity: 0;
+    animation: fadeIn 3.5s ease-in-out forwards;
+}
+
+@keyframes fadeIn {
+    to {
+        opacity: 1;
+    }
+}
+
+.info {
+    opacity: 0;
+    animation: fadeIn 10s ease-in-out forwards;
+}
+
+@keyframes info {
+    to {
+        opacity: 1;
+    }
+}
+
+#back a {
+    text-decoration: none;
+}
+
+#back {
+    font-size: 14px;
+    opacity: 0;
+    animation: fadeIn 10s ease-in-out forwards;
+}
+
+@keyframes back {
+    to {
+        opacity: 1;
+    }
+}
